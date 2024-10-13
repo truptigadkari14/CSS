@@ -1,0 +1,61 @@
+h1{
+    color: blue;
+}
+
+p{
+    /* border-style: none;
+    border-style: solid;
+    border-style: dotted;
+    border-style: dashed;
+    border-style: double; */
+
+    /* border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-right-style: solid; */
+
+    /* border-style: top right bottom left;*/
+    border-style: solid dotted dashed double;
+
+    /* border-style: top-bottom left-right; only for two values */
+    border-style: double solid;
+
+  /* border width : thick medium thin */
+    border-width: thick;
+    border-width: medium;
+    border-width: thin;
+    border-width: 5px;
+
+    /* border-left-width: 10px;
+    border-top-width: 7px;
+    border-bottom-width: 10px;
+    border-right-width: 8px; */
+
+    border-color: blueviolet;
+    border-top-color: goldenrod;
+}
+
+a{
+    color: green; 
+    /* border-style: double; */
+    padding: 5px 10px;
+    /* border-color: rgb(70, 99, 12); */
+
+    /* border: style width color; */
+    border: solid 2px green;
+    border-radius: 10px;
+    /* border-width: 2px; */
+    /* width: 50px; */
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+a:hover{
+    color: yellowgreen;
+    background-color: green;
+}
+
+table,th,tr,td{
+    border: solid 2px darkblue;
+    border-collapse: collapse;
+}
