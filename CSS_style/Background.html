@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 300px;
+            width: 700px;
+            text-align: center;
+            padding-top: 100px;
+            box-sizing: border-box;
+
+            /* background-image: url('https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg'); */
+            background-color: rgb(149, 218, 47);
+            color: white;
+            border: 10px dotted rgb(83, 36, 131);
+            padding: 30px;
+            margin: 20px; 
+        
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* background-origin: border-box; */
+            background-origin: content-box;
+            background-clip: padding-box;
+        
+        }
+        .child{
+            /* backdrop-filter: blur(3px);
+            background-color: rgba(14, 12, 11,.4); */
+            height: 20px;
+            width: 130px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Origin</h1>
+    <div class="container">
+        <div class="child">Happy Diwali</div>
+    </div>
+</body>
+</html>

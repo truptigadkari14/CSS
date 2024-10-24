@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(245, 246, 247);
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid #706d6d;
+    padding: 20px 10px;
+}
+.container h1{
+    background-color: aqua;
+    padding: 20px 20px;
+    text-align: center;
+    color: rgb(10, 10, 97);
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 15px 10px 0px;
+    background-color: rgb(131, 124, 124);
+    padding: 10px;
+    float: left;
+}
+.container > .text{
+    text-align: justify;
+    margin: 20px 10px;
+    color: #3f3e3e;
+
+}
+.clear{
+    clear: left;
+}
